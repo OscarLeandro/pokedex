@@ -1,0 +1,11 @@
+
+body{
+    background: url('../img/fondo.jpg') #000;
+    background-repeat: no-repeat;
+
+}
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow:200px;
+}
