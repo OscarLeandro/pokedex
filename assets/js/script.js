@@ -16,7 +16,7 @@ $(()=>{
                 $('#pokeInfo').html(`
 
                     <div class="text-center">
-                        <h3>${nombre}</h3>
+                        <h3>${nombre.charAt(0).toUpperCase()+nombre.slice(1) } </h3>
                         <img src="${imagen}" class='img-fluid' alt="">
                         <h6>Peso: ${peso}</h6>
                     </div>
