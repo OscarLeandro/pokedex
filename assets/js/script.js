@@ -6,7 +6,7 @@ $(()=>{
         let valueInput = $('#pokemonInput').val();
         
         $.ajax({
-            url: 'https://pokeapi.co/api/v2/pokemon/' + valueInput,
+            url: 'https://pokeapi.co/api/v2/pokemon/' + valueInput.toLowerCase(),
             success: (data)=>{
 
                 let nombre = data.name;
